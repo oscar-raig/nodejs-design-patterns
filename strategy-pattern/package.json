@@ -1,0 +1,19 @@
+{
+  "name": "strategy-pattern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "Duck.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "tap": "^2.1.1",
+    "tap-spec": "^4.1.0",
+    "tape": "^4.2.2"
+  }
+}
