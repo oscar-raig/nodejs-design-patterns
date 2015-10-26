@@ -12,6 +12,9 @@ class Duck {
   dislplay() {
   	console.log("Duck::display");
   }
+  flay() {
+  	console.log("Duck::fly");
+  }
 }
 
 module.exports = Duck;

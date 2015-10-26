@@ -7,7 +7,7 @@ class FlyBehaviors {
     	}
 	}
 	fly() {
-		console.log("")
+		console.log("FlyBehaviors:fly");
 	}
 }
 
