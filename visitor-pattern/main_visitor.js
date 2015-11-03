@@ -30,6 +30,25 @@ comp.add(new node.Leaf("Leaf XB"));
 root.add(comp);
 root.add(new node.Leaf("Leaf C"))
 
+let visitor = new node.Visitor();
+root.accept(visitor);
 root.display();
+
+console.log("Let's got count nodes");
+
+let visitorCounter = new node.VisitorCounter();
+
+root.accept(visitorCounter);
+console.log("Get final count" + visitorCounter.getCounter());
+
+
+
+console.log("Let's got concat nodes names");
+
+let visitorConcat = new node.VisitorConcat();
+
+root.accept(visitorConcat);
+console.log("Get final concat -" + visitorConcat.getConcat() + "-");
+
 
 
