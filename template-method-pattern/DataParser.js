@@ -7,21 +7,21 @@ class DataParser {
 		console.log("DataParser::constructor");
 	}
 	parseDataAndGenerateOutput(){
-		readData();
-        processData();
-        writeData();
+		this.readData();
+        this.processData();
+        this.writeData();
 	}
 
 	readData() {
-		throw ("Override this function readData");
+		throw ("DataParser::Override this function readData");
 	}
 
     processData() {
-    	throw ("Override this function processData");
+    	throw ("DataParser::Override this function processData");
     }
 
     writeData() {
-    	console.log("System.out.println");
+    	console.log("DataParser::writeData");
     }
 
 
