@@ -1,7 +1,7 @@
 "use strict";
 
 let test = require('tape').test;
-let DataParser = require("../DataParser");
+let DataParser = require("../DataParser.js");
 
 
 test("Test DataParser constructor",function(t){
